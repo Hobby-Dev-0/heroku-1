@@ -87,7 +87,7 @@
       "required": false
     },
     "TELETHON_SESSION": {
-      "description": "Telethon session If dont want add skip",
+      "description": "Telethon session If dont want add skip get from here https://replit.com/@amanpandey7647/Speedo-Session#main.py",
       "value": "",
       "required": false
     },
@@ -101,7 +101,7 @@
       "value": "Asia/Kolkata"
     },
     "STRINGSESSION": {
-      "description": "String Session, Run string_gen.py to get String Session.",
+      "description": "String Session, Run https://replit.com/@amanpandey7647/Speedo-Session#main.py to get String Session.",
       "value": ""
     }
   },
