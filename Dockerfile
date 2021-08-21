@@ -6,4 +6,5 @@ COPY ./pro.py .
 ADD ./noob.py .
 ADD ./pro.py .
 WORKDIR .
-CMD ./python
+CMD ["python", "-m", "noob"]
+CMD ["python", "-m", "pro"]
