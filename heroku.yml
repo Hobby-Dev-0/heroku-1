@@ -1,0 +1,7 @@
+build:
+  docker:
+      worker: Dockerfile
+      op: Dockerfile
+run:
+  worker: python ./noob.py
+  op: python ./pro.py
