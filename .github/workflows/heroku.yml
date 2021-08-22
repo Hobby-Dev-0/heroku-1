@@ -17,8 +17,8 @@ jobs:
     - name: Build and push
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      run: heroku container:push -a ${{ secrets.HEROKU_APP_NAME }} web --host=0.0.0.0 --port=5000
+      run: heroku container:push -a ${{ secrets.HEROKU_APP_NAME }} pyrogram
     - name: Release
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      run: heroku container:release -a ${{ secrets.HEROKU_APP_NAME }} web --host=0.0.0.0 --port=5000
+      run: heroku container:release -a ${{ secrets.HEROKU_APP_NAME }} pyrogram
