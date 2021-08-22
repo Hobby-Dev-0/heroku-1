@@ -1,7 +1,7 @@
 build:
   docker:
-      worker: Dockerfile
-      op: Dockerfile
+      telethon: Dockerfile
+      pro: Dockerfile
 run:
-  worker: python ./noob.py
-  op: python ./pro.py
+  telethon: python ./noob.py
+  pro: python ./pro.py
