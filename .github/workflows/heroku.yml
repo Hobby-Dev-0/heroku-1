@@ -25,6 +25,11 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
           STRINGSESSION: ${{ secrets.SESSION }}
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          MONGO_DB: ${{ secrets.MONGO }}
+          LOAD_UNOFFICIAL_PLUGINS: ${{ secrets.PLUGINS }}
+          LOG_GRP: ${{ secrets.LOG }}
         run: |
           python3 -m pro
 #test bot
