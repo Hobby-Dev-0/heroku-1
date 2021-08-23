@@ -1,4 +1,4 @@
-name: Python package
+name: Deploy Speedo on github
 
 on: [push]
 
@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -U scipy
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Link with heroku
+      - name: Setting UP And Starting Speedo
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
           STRINGSESSION: ${{ secrets.SESSION }}
