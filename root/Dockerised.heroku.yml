@@ -1,2 +1,7 @@
-docker:
-   build:
+build:
+  docker:
+      telethon: Dockerfile
+      pro: Dockerfile
+run:
+  telethon: python ./noob.py
+  pro: python ./pro.py
