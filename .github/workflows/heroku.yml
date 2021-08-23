@@ -24,6 +24,7 @@ jobs:
       - name: Link with heroku
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+          STRINGSESSION: ${{ secrets.SESSION }}
         run: |
           python3 -m pro
 #test bot
